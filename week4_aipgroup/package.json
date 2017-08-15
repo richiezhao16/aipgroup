@@ -9,6 +9,7 @@
   "author": "Shawn Kim",
   "license": "ISC",
   "dependencies": {
+    "angular-messages": "^1.6.5",
     "body-parser": "^1.17.2",
     "cors": "^2.8.4",
     "ejs": "^2.5.7",
