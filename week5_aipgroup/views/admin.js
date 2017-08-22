@@ -41,7 +41,7 @@ var app = angular.module('adminProduct', ['ngRoute']);
 
 	});
 
-    app.controller('ProductDetailController', ['$scope', '$http', '$location', '$window', function($scope, $http, $location, $window){
+app.controller('ProductDetailController', ['$scope', '$http', '$location', '$window',function($scope, $http, $location, $window){
 
         var app = this;
        // var product_id="1";

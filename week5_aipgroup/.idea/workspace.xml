@@ -56,21 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="product.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="322">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="84" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="184">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="9" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -101,7 +101,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
               <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-              <folding />
+              <folding>
+                <marker date="1503394756064" expanded="true" signature="1508:1703" ph="{...}" />
+                <marker date="1503394756064" expanded="true" signature="1751:1821" ph="{...}" />
+                <marker date="1503394756064" expanded="true" signature="1866:2497" ph="{...}" />
+                <marker date="1503394756064" expanded="true" signature="1892:2045" ph="{&quot;product_id&quot;: product_id...}" />
+                <marker date="1503394756064" expanded="true" signature="2123:2311" ph="{&quot;url&quot;: url...}" />
+                <marker date="1503394756064" expanded="true" signature="2338:2443" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,9 +166,9 @@
         <option value="$PROJECT_DIR$/views/product_detail.html" />
         <option value="$PROJECT_DIR$/routes/product_back.js" />
         <option value="$PROJECT_DIR$/views/admin.js" />
-        <option value="$PROJECT_DIR$/routes/product.js" />
         <option value="$PROJECT_DIR$/routes/db.js" />
         <option value="$PROJECT_DIR$/views/product_list.html" />
+        <option value="$PROJECT_DIR$/routes/product.js" />
       </list>
     </option>
   </component>
@@ -267,12 +274,12 @@
       <option name="presentableId" value="Default" />
       <updated>1503110845414</updated>
       <workItem from="1503110851362" duration="10490000" />
-      <workItem from="1503233251043" duration="42123000" />
+      <workItem from="1503233251043" duration="42465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52613000" />
+    <option name="totallyTimeSpent" value="52955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -592,7 +599,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-          <folding />
+          <folding>
+            <marker date="1503394756064" expanded="true" signature="1508:1703" ph="{...}" />
+            <marker date="1503394756064" expanded="true" signature="1751:1821" ph="{...}" />
+            <marker date="1503394756064" expanded="true" signature="1866:2497" ph="{...}" />
+            <marker date="1503394756064" expanded="true" signature="1892:2045" ph="{&quot;product_id&quot;: product_id...}" />
+            <marker date="1503394756064" expanded="true" signature="2123:2311" ph="{&quot;url&quot;: url...}" />
+            <marker date="1503394756064" expanded="true" signature="2338:2443" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -604,18 +618,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/product.js">
+    <entry file="file://$PROJECT_DIR$/routes/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="184">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="9" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/db.js">
+    <entry file="file://$PROJECT_DIR$/routes/product.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="322">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="84" selection-end-column="24" />
           <folding />
         </state>
       </provider>
