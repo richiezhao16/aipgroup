@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 //var app = express();
-var mysql      = require('mysql');
+var mysql = require('mysql');
 
 
 router.get("/product/list",function(req,res){
@@ -80,10 +80,10 @@ router.post('/product/update/:id', function(req, res, next){
 router.get("/flavor/:id",function(req,res){
 
     var con = mysql.createConnection({
-        host     : 'localhost',
-        user     : 'aipgroup',
-        password : 'aipgroup',
-        database : 'aipgroup'
+        host     : 'ourcityshop.com.au',
+        user     : 'ourcity9_aip2017',
+        password : 'Minmin@1',
+        database : 'ourcity9_aip2017_uts'
     });
 
     con.connect(function(err) {
@@ -104,10 +104,10 @@ router.get("/flavor/:id",function(req,res){
 router.get("/ingredient/:id",function(req,res){
 
     var con = mysql.createConnection({
-        host     : 'localhost',
-        user     : 'aipgroup',
-        password : 'aipgroup',
-        database : 'aipgroup'
+        host     : 'ourcityshop.com.au',
+        user     : 'ourcity9_aip2017',
+        password : 'Minmin@1',
+        database : 'ourcity9_aip2017_uts'
     });
 
     con.connect(function(err) {

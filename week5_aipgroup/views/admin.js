@@ -41,7 +41,7 @@ var app = angular.module('adminProduct', ['ngRoute']);
 
 	});
 
-    app.controller('ProductDetailController', ['$scope', '$http', '$location', '$route', '$routeParams',function($scope, $http, $location, $window){
+app.controller('ProductDetailController', ['$scope', '$http', '$location', '$window',function($scope, $http, $location, $window){
 
         var app = this;
        // var product_id="1";
@@ -54,8 +54,7 @@ var app = angular.module('adminProduct', ['ngRoute']);
             });
 
         $scope.goToProductList = function (){
-
-            $window.location.href = ("/");
+        	$window.location.href = ("product_list.html");
         }
 
 
