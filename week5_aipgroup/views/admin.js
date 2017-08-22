@@ -41,11 +41,7 @@ var app = angular.module('adminProduct', ['ngRoute']);
 
 	});
 
-<<<<<<< HEAD
 app.controller('ProductDetailController', ['$scope', '$http', '$location', '$window',function($scope, $http, $location, $window){
-=======
-    app.controller('ProductDetailController', ['$scope', '$http', '$location', '$window', function($scope, $http, $location, $window){
->>>>>>> af2695389c3dcc345ae252e652afa53a56b3e785
 
         var app = this;
        // var product_id="1";
@@ -58,11 +54,7 @@ app.controller('ProductDetailController', ['$scope', '$http', '$location', '$win
             });
 
         $scope.goToProductList = function (){
-<<<<<<< HEAD
-        	$window.location.href = ("product_list.html");
-=======
             $window.location.href = ("product_list.html");
->>>>>>> af2695389c3dcc345ae252e652afa53a56b3e785
         }
 
 
