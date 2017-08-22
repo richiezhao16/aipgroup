@@ -72,7 +72,6 @@ router.post('/product/update/:id', function(req, res, next){
         con.query(sql, values, function (err, result) {
             if (err) throw err;
             console.log(result.affectedRows + " record(s) updated");
-            res.json();
         });
     });
 });
